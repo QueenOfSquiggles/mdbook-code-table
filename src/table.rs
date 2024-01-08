@@ -25,7 +25,7 @@ struct CodeTable {
     rows: Vec<TableRow>,
 }
 
-struct CodeTables;
+pub struct CodeTables;
 
 impl CodeTables {
     const CODE_ANNOTATION: &'static str = "@code";

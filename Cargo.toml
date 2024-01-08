@@ -3,8 +3,8 @@ name = "mdbook-code-table"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
-name = "mdbook_code_table"
-
 [dependencies]
+clap = "4.4.14"
 mdbook = "0.4.36"
+serde = "1.0.195"
+serde_json = "1.0.111"
